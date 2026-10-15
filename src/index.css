@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Libre Franklin", "Segoe UI", sans-serif;
+  --color-cream: #f3eee4;
+  --color-paper: #faf7f1;
+  --color-ink: #1a2118;
+  --color-moss: #1e3324;
+  --color-leaf: #3d5a45;
+  --color-gold: #8a6840;
+  --color-line: #d5cbb9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: #1e3324;
+  color: #f3eee4;
+}
