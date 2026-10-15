@@ -80,7 +80,7 @@ export default function App() {
       <header className="sticky top-0 z-20 border-b border-line bg-cream/95 backdrop-blur-sm">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
           <a href="#top" className="font-display text-2xl leading-none tracking-wide text-moss">
-            Oddete <span className="italic">Fruits</span>
+            Odette <span className="italic">Fruits</span>
           </a>
           <nav className="hidden items-center gap-8 text-[12px] font-medium tracking-[0.18em] uppercase text-leaf md:flex">
             <a href="#offering" className="hover:text-moss">
@@ -121,10 +121,10 @@ export default function App() {
         <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 md:grid-cols-2 md:py-24">
           <div>
             <p className="text-[12px] font-medium tracking-[0.32em] text-gold uppercase">
-              Oddete Fruits
+              Odette Fruits
             </p>
             <h1 className="mt-4 font-display text-6xl leading-[0.88] font-medium text-moss sm:text-7xl md:text-8xl">
-              Oddete
+              Odette
               <span className="mt-1 block italic">Fruits</span>
             </h1>
             <div className="mt-6 h-px w-24 bg-gold" />
@@ -164,7 +164,7 @@ export default function App() {
         <section className="border-y border-line bg-paper">
           <div className="mx-auto grid max-w-6xl gap-6 px-5 py-8 sm:grid-cols-3">
             {[
-              ['The name', 'Oddete Fruits'],
+              ['The name', 'Odette Fruits'],
               ['The work', 'A fruit commerce platform'],
               ['The hour', 'In preparation'],
             ].map(([label, value]) => (
@@ -223,7 +223,7 @@ export default function App() {
                 <span className="italic"> kept as a platform.</span>
               </h2>
               <p className="mt-6 max-w-md text-sm leading-relaxed font-light text-cream/80">
-                Oddete Fruits is the name of a commerce house still on the
+                Odette Fruits is the name of a commerce house still on the
                 bench. Orders, crates, and delivery will live here. Until the
                 doors open, this page holds the fruit and the intention.
               </p>
@@ -253,7 +253,7 @@ export default function App() {
               <figcaption className="flex flex-col gap-2 bg-paper px-5 py-4 sm:flex-row sm:items-baseline sm:justify-between">
                 <span className="font-display text-2xl text-moss italic">The market table</span>
                 <span className="text-[12px] tracking-[0.16em] text-leaf uppercase">
-                  A study for the Oddete Fruits catalogue
+                  A study for the Odette Fruits catalogue
                 </span>
               </figcaption>
             </figure>
@@ -265,7 +265,7 @@ export default function App() {
             <div>
               <p className="text-[12px] tracking-[0.28em] text-gold uppercase">The opening list</p>
               <h2 className="mt-3 font-display text-5xl leading-tight text-moss md:text-6xl">
-                Request a place at Oddete Fruits
+                Request a place at Odette Fruits
               </h2>
               <p className="mt-5 max-w-md text-sm leading-relaxed font-light text-ink/75">
                 Leave a name and we will write when the platform is ready to
@@ -284,7 +284,7 @@ export default function App() {
                   {fruit
                     ? `${fruit} is marked beside your name. `
                     : 'Your name is on the opening list. '}
-                  Oddete Fruits will write to {email.trim()} when the doors are ready.
+                  Odette Fruits will write to {email.trim()} when the doors are ready.
                 </p>
               </div>
             ) : (
@@ -346,7 +346,7 @@ export default function App() {
       <footer className="border-t border-line">
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-8 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-display text-2xl text-moss">
-            Oddete <span className="italic">Fruits</span>
+            Odette <span className="italic">Fruits</span>
           </p>
           <p className="text-[12px] tracking-[0.14em] text-leaf uppercase">
             A platform in preparation · MMXXVI
